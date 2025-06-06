@@ -85,7 +85,7 @@ mkdocs serve
 ## 📚 Documentation
 
 Explore the full interactive documentation and module explorer at:  
-📘 [https://yourusername.github.io/ORAIL-GeoPovertyProj](https://yourusername.github.io/ORAIL-GeoPovertyProj)
+📘https://github.com/Zingaber/ORAIL-GeoPovertyProj.git
 
 ---
 
