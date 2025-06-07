@@ -1,0 +1,27 @@
+# Conda / Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+.venv/
+.orail_env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode / Cursor
+.vscode/
+cursor.*
+
+# Output and Logs
+outputs/
+*.log
+
+# OS System files
+.DS_Store
+Thumbs.db
+
+# Git modules
+.gitmodules
