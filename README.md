@@ -1,89 +1,126 @@
-# ORAIL CITIZEN AI - Geospatial Poverty Mapping Framework
+# ORAIL CITIZEN AI – Geospatial Poverty Mapping Framework
 
 **Open Source Responsible AI Literacy (ORAIL) Initiative**
 
-## Project Overview
+📍 *Citizen-Centric AI + LLM + R + 3D Visualizations + Open Data Infrastructure*
 
-The ORAIL CITIZEN AI framework provides advanced geospatial poverty mapping capabilities using AI, machine learning, and satellite imagery analysis.
+---
 
-## System Configuration
+## 🧭 Project Overview
 
-- **Project Directory**: C:/Users/josze/MYRworkspace-CitizenAI-poverty-mapping
-- **Python**: 3.12.3 (Anaconda)
-- **GPU**: NVIDIA GeForce RTX 4070 Laptop GPU
-- **TensorFlow**: 2.19.0
-- **PyTorch**: 2.5.1
-- **IDE**: Cursor IDE
+`ORAIL-GeoPovertyProj` is a modular, open-source framework designed to enable researchers, citizens, and policymakers to perform **AI-powered poverty mapping and spatial analysis**. It integrates rural datasets (census, satellite, mobile, OSM), ML pipelines (XGBoost, CNN), agentic systems (LangChain, OpenAI), and R-based 3D rendering for impactful insights.
 
-## Quick Start with Cursor IDE
+---
 
-### 1. Open Project in Cursor
+## 💻 System Configuration (Dev Setup)
+
+| Component     | Configuration |
+|---------------|---------------|
+| Project Dir   | `C:/Users/josze/MYRworkspace-CitizenAI-poverty-mapping` |
+| Python        | 3.12.3 (Anaconda) |
+| TensorFlow    | 2.19.0 |
+| PyTorch       | 2.5.1 |
+| GPU           | NVIDIA GeForce RTX 4070 |
+| IDE           | Cursor IDE |
+| Platform      | Windows 11 |
+
+---
+
+## 🏗️ Project Structure
+
 ```bash
-cd "C:/Users/josze/MYRworkspace-CitizenAI-poverty-mapping"
-cursor .
-```
+MYRworkspace-CitizenAI-poverty-mapping/
+├── config/              # Python + R environments, API keys
+├── data/                # Raw, processed, and cache data
+├── models/              # ML models and configs
+├── outputs/             # Maps (2D/3D), reports, charts
+├── scripts/             # Python, R, SQL scripts
+├── notebooks/           # Exploratory + modeling notebooks
+├── docs/                # MkDocs GitHub Pages site
+├── .github/, .vscode/   # CI/CD & IDE config
 
-### 2. Load Environment
-```python
-# In any Python file or notebook
-exec(open('config/environment.py').read())
-```
 
-### 3. Start Jupyter Notebook
+---
+
+## 🔧 Key Features
+
+| Capability                  | Description                                                                 |
+|----------------------------|-----------------------------------------------------------------------------|
+| 🧬 Agentic AI               | LangChain & MCP-based AI agents for querying, analysis, and synthesis       |
+| 📈 3D Poverty Maps          | R + rayshader + satellite fusion for immersive spatial poverty visualization |
+| 🤖 LLM Orchestration        | OpenAI and Anthropic models connected via function-calling & LangChain       |
+| 🧩 Modular Pipelines        | Clean architecture for data → features → ML → visualization                  |
+| 🌐 Citizen Data Dashboards  | Future-ready UI integrations for community insights and local action         |
+
+---
+
+## 📦 Tech Stack
+
+- **Languages**: Python, R, SQL, YAML
+- **ML/AI**: XGBoost, CNN, LangChain, OpenAI, Transformers
+- **Geospatial**: GeoPandas, Rasterio, OSMnx, rayshader
+- **3D Viz**: R + `rayshader`, Blender-ready outputs
+- **Agents**: MCP (Model Context Protocol), LangChain
+- **Frontend**: MkDocs (Material Theme) + GitHub Pages
+- **Data**: Census, satellite imagery, mobile indicators, OSM
+
+---
+
+## 🚀 Getting Started
+
 ```bash
-jupyter lab
+# Clone the repo
+git clone https://github.com/YOUR_USERNAME/ORAIL-GeoPovertyProj.git
+cd ORAIL-GeoPovertyProj
+
+# Setup environment
+conda env create -f config/environment.yml
+conda activate orail_env
+
+# Run system scan (optional)
+powershell -ExecutionPolicy Bypass -File system_inventory_cursor_plus_fixed.ps1
+
+# Launch MkDocs documentation
+mkdocs serve
 ```
 
-### 4. Run Starter Script
-```bash
-python scripts/python/starter_analysis.py
-```
+---
 
-## Project Structure
+## 📚 Documentation
 
-```
-C:/Users/josze/MYRworkspace-CitizenAI-poverty-mapping/
-├── data/
-│   ├── raw/          # Raw satellite, census data
-│   ├── processed/    # Cleaned datasets
-│   └── cache/        # Temporary files
-├── models/           # Trained ML models
-├── outputs/          # Maps, reports, visualizations
-├── scripts/          # Analysis scripts
-├── notebooks/        # Jupyter notebooks
-├── config/           # Configuration files
-└── .vscode/          # Cursor IDE settings
-```
+Explore the full interactive documentation and module explorer at:  
+📘https://github.com/Zingaber/ORAIL-GeoPovertyProj.git
 
-## Development Workflow
+---
 
-1. **Data Collection**: Satellite imagery, census data, mobile data
-2. **Feature Engineering**: Extract poverty indicators
-3. **Model Training**: AI/ML poverty prediction models
-4. **3D Visualization**: Interactive poverty maps
-5. **LLM Integration**: Natural language insights
+## 🧠 Contributors & Credits
 
-## Key Features
+This project integrates learnings from:
+- ADB Citizen AI Manual 2030
+- OpenAI, LangChain, and MCP architectures
+- R-based geospatial rendering systems
+- MIT Data + Development Lab standards
 
-- Real-time poverty monitoring
-- 3D geospatial visualization
-- AI-powered analytics
-- Multi-source data integration
-- GPU acceleration support
-- LLM-enhanced insights
+🧑‍💻 Maintainer: [Joseph Thomas / Alswamitra.org](https://alswamitra.org)
 
-## Contact
+---
 
-- **Author**: Joseph V Thomas
-- **Organization**: ORAIL (Open Source Responsible AI Literacy)
-- **Email**: citizen-ai@orail.org
-- **License**: Creative Commons
+## 📜 License
 
-## Getting Help
+This project is released under the [MIT License](LICENSE).
 
-1. Check notebooks in `notebooks/` folder
-2. Review configuration in `config/` folder  
-3. Explore examples in `scripts/` folder
-4. Open issues on project repository
+---
 
-Ready to map poverty with AI!
+## 🙌 Contributing
+
+We welcome contributions to models, datasets, and agent workflows.
+To contribute:
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request with documentation
+
+---
+
+> “AI for dignity, equity, and scale. A better life. For the many.”
+> — *ORAIL Initiative, 2025*
+>>>>>>> 7d666744302e7a0d299cbf874dd9c3b6c335b69b

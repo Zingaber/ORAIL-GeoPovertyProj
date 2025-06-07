@@ -1,0 +1,30 @@
+name: orail_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - jupyterlab
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - geopandas
+  - rasterio
+  - scikit-learn
+  - xgboost
+  - ipykernel
+  - notebook
+  - pyproj
+  - shapely
+  - openpyxl
+  - requests
+  - plotly
+  - nb_conda
+  - pip:
+      - langchain
+      - openai
+      - sentence-transformers
+      - torch
+      - transformers
