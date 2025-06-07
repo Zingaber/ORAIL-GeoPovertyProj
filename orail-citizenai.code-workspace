@@ -1,0 +1,33 @@
+{
+  "folders": [
+    {
+      "path": "C:/Users/josze/MYRworkspace-CitizenAI-poverty-mapping"
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "C:/Users/josze/anaconda3/User-quantuM-CDAC-CLASS/anaconda3/python.exe",
+    "python.condaPath": "C:/Users/josze/anaconda3/User-quantuM-CDAC-CLASS/anaconda3\\Scripts\\conda.exe",
+    "jupyter.jupyterServerType": "local",
+    "jupyter.notebookFileRoot": "C:/Users/josze/MYRworkspace-CitizenAI-poverty-mapping\\notebooks",
+    "files.watcherExclude": {
+      "**/temp/**": true,
+      "**/data/cache/**": true,
+      "**/__pycache__/**": true
+    },
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "terminal.integrated.cwd": "C:/Users/josze/MYRworkspace-CitizenAI-poverty-mapping"
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "ms-toolsai.jupyter",
+      "ms-python.black-formatter",
+      "ms-vscode.vscode-json",
+      "redhat.vscode-yaml"
+    ]
+  }
+}

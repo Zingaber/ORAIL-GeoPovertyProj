@@ -1,0 +1,21 @@
+{
+  "python.defaultInterpreterPath": "C:/Users/josze/anaconda3/User-quantuM-CDAC-CLASS/anaconda3/python.exe",
+  "python.condaPath": "C:/Users/josze/anaconda3/User-quantuM-CDAC-CLASS/anaconda3\\Scripts\\conda.exe",
+  "jupyter.jupyterServerType": "local",
+  "jupyter.notebookFileRoot": "C:/Users/josze/MYRworkspace-CitizenAI-poverty-mapping\\notebooks",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.cwd": "C:/Users/josze/MYRworkspace-CitizenAI-poverty-mapping",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "editor.minimap.enabled": true,
+  "editor.lineNumbers": "on",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.analysis.autoImportCompletions": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false
+}
