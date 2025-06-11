@@ -12,6 +12,7 @@ if (-not $RScriptPath) {
 $RScriptPath = $RScriptPath.Path
 
 # Create a temporary R script
+
 $TempRScript = "$env:TEMP\check_r_pkgs.R"
 $LogFile = "$env:TEMP\r_pkg_check_log.txt"
 

@@ -5,20 +5,30 @@
     }
   ],
   "settings": {
+    // 🐍 Python & Conda
     "python.defaultInterpreterPath": "C:/Users/josze/anaconda3/User-quantuM-CDAC-CLASS/anaconda3/python.exe",
-    "python.condaPath": "C:/Users/josze/anaconda3/User-quantuM-CDAC-CLASS/anaconda3\\Scripts\\conda.exe",
+    "python.condaPath": "C:/Users/josze/anaconda3/User-quantuM-CDAC-CLASS/anaconda3/Scripts/conda.exe",
+    // 📓 Jupyter Notebook
     "jupyter.jupyterServerType": "local",
-    "jupyter.notebookFileRoot": "C:/Users/josze/MYRworkspace-CitizenAI-poverty-mapping\\notebooks",
+    "jupyter.notebookFileRoot": "C:/Users/josze/MYRworkspace-CitizenAI-poverty-mapping/notebooks",
+    // 🧹 File Cleanup
     "files.watcherExclude": {
       "**/temp/**": true,
       "**/data/cache/**": true,
       "**/__pycache__/**": true
     },
+    // 🔍 Python Analysis
     "python.analysis.autoImportCompletions": true,
     "python.analysis.typeCheckingMode": "basic",
-    "editor.formatOnSave": true,
     "python.formatting.provider": "black",
-    "terminal.integrated.cwd": "C:/Users/josze/MYRworkspace-CitizenAI-poverty-mapping"
+    // 💻 Terminal Defaults
+    "terminal.integrated.cwd": "C:/Users/josze/MYRworkspace-CitizenAI-poverty-mapping",
+    // 🧠 Editor Preferences
+    "editor.formatOnSave": true,
+    // 🧪 R Integration
+    "r.rterm.windows": "C:/Program Files/R/R-4.5.0/bin/x64/R.exe",
+    "r.rpath.windows": "C:/Program Files/R/R-4.5.0/bin/Rscript.exe",
+    "r.lsp.path": "C:/Program Files/R/R-4.5.0/bin/R.exe"
   },
   "extensions": {
     "recommendations": [
@@ -27,7 +37,8 @@
       "ms-toolsai.jupyter",
       "ms-python.black-formatter",
       "ms-vscode.vscode-json",
-      "redhat.vscode-yaml"
+      "redhat.vscode-yaml",
+      "ikuyadeu.r" // 💡 Optional: R language support
     ]
   }
 }

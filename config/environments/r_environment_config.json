@@ -1,0 +1,21 @@
+{
+    "R_HOME": "C:/Program Files/R/R-4.5.0",
+    "R_BIN": "C:/Program Files/R/R-4.5.0/bin/x64",
+    "R_SCRIPT": "C:/Program Files/R/R-4.5.0/bin/Rscript.exe",
+    "R_GUI": "C:/Program Files/R/R-4.5.0/bin/Rgui.exe",
+    "LIBRARIES_INSTALLED": [
+        "rayshader",
+        "raster",
+        "terra",
+        "rgl",
+        "sp",
+        "sf",
+        "elevatr",
+        "magick",
+        "ggplot2"
+    ],
+    "LIBRARIES_PENDING": [
+        "tmap",
+        "leaflet"
+    ]
+}
